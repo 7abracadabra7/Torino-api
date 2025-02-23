@@ -20,7 +20,7 @@ const startServer = (port) => {
     console.log(`Server running on port ${port}`);
     swaggerDocument.servers = [
       {
-        url: `https://torino-api-rho.vercel.app/:${port}`,
+        url: `http://localhost:${port}`,
         description: "Local server",
       },
     ];
